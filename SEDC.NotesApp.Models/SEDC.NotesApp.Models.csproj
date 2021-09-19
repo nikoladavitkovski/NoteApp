@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotesApp.Domain\NotesApp.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.NotesApp.Shared\SEDC.NotesApp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
